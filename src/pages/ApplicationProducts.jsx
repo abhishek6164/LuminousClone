@@ -8,7 +8,7 @@ const categories = [
         title: 'Wellbeing',
         description: 'Stay your best self, always',
         img: man,
-color: ' bg-[radial-gradient(circle,_#ffffff_10%,_#FF9A44_50%,_#F75D34_90%)]',
+        color: 'bg-gradient-to-r from-[#FFCF9D] to-[#FFDFCE]',
         hoverColor: 'from-[#FFCF9D] to-[#FFDFCE]',
     },
     {
