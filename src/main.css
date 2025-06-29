@@ -1,0 +1,19 @@
+.red-glow {
+  background: rgba(255, 0, 0, 0.3); /* Light red color */
+  animation: glowRed 2s ease-in-out infinite; /* 4s = slow pulse */
+  mix-blend-mode: screen; /* Optional: better light blending */
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+@keyframes glowRed {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3; /* Bright red glow at midpoint */
+  }
+  100% {
+    opacity: 0;
+  }
+}
